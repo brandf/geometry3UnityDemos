@@ -168,6 +168,7 @@ public class g3UnityUtils
             result[i].r = vec[3 * i];
             result[i].g = vec[3 * i + 1];
             result[i].b = vec[3 * i + 2];
+            result[i].a = 1f;
         }
         return result;
     }
